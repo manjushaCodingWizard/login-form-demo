@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(186, 226, 252);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loginbox{
+    border-radius: 20px;
+    width:320px; 
+    height: 420px;
+    background : linear-gradient(#0e0929,rgb(54, 106, 131));
+    color: #ffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform : translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: 3px 3px 12px #1c2838, 
+                -3px -3px 9px #1c3647;
+}
+
+.avatar{
+    width: 80px; 
+    height: 75px;
+    border-radius : 10%; 
+    position: absolute;
+    top: -40px; 
+    left: calc(50% - 40px);
+    background-color: transparent;
+}
+
+ .loginbox h1{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 12px;
+    /*padding: 45px 0 10px 0;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color:rgb(86, 163, 252);
+}
+
+
+.loginbox p {
+    margin: 0px;
+    padding: 0px;
+    font-size:15px;
+    font-weight: bold;
+    color:rgb(178, 210, 247);
+}
+
+.loginbox input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    background: transparent;    
+    border: none;
+    outline: none;
+    height: 35px;
+    color:rgb(178, 210, 247);
+    border-bottom: 0.5px solid rgb(178, 210, 247);
+    font-size:14px;
+}
+
+.loginbox input[type="password"]{
+    justify-content:  center;
+}
+
+.loginbox input[type="submit"]{
+    width: 150px;
+    outline: none;
+    border: none;
+    background-color: rgb(250, 40, 33);
+    color:rgb(200, 202, 202);
+    font-size:15px;
+    height:25px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor:pointer;
+    background: rgb(247, 105, 105);
+    color:#000;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size:13px;
+    line-height:20px;
+    color:rgb(195, 252, 252);
+}
+
+.loginbox a:hover{
+    cursor:pointer;
+    color:rgb(3, 20, 53);
+}
